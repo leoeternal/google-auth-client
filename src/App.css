@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(240, 242, 245);
+}
+
+p {
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family: "Nerko One", cursive;
+}
+
+.loader {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

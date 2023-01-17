@@ -1,0 +1,74 @@
+.login-wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  width: 700px;
+}
+
+.login-container #title {
+  font-size: 50px;
+  color: rgb(55, 55, 55);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.login-wrapper .form-field-container {
+  padding: 10px 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.login-container .form-field {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.login-container .form-field #key {
+  width: 150px;
+  color: rgb(75, 75, 75);
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.login-container .button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.login-container .google-auth-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.login-container .loginpage-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container .loginpage-link p {
+  cursor: pointer;
+  color: rgb(92, 92, 92);
+  margin: 0 10px;
+}
+
+.login-container .loginpage-link p:hover {
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
